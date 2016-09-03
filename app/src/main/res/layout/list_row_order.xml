@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_medium">
+
+    <TextView
+        android:id="@+id/tv_meal_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fish Curry"
+        android:textSize="@dimen/text_heading_1x"
+        android:textColor="@color/primary_text"
+        />
+
+    <com.anastatia.padc_mealorder.componenets.DynamicHeightImageView
+        android:id="@+id/iv_mealorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mealfive"
+        android:layout_marginTop="@dimen/margin_small"
+        />
+
+    <TextView
+        android:id="@+id/tv_mealorder_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fried chicken is a dish consisting of chicken pieces usually from broiler chickens which have been floured or battered and then pan-fried, deep fried, or pressure fried. The breading adds a crisp coating or crust to the exterior"
+        android:fontFamily="sans-serif-light"
+        android:lineSpacingMultiplier="1.2"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/margin_small"
+        android:textSize="@dimen/text_regular"
+        android:textColor="@color/primary_text"
+        />
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_price"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="5000"-->
+        <!--android:maxLines="1"-->
+        <!--android:ellipsize="end"-->
+        <!--android:layout_marginTop="@dimen/fab_margin"-->
+        <!--android:textSize="@dimen/text_regular"-->
+        <!--android:textColor="@color/primary_text"-->
+        <!--/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_ingredients"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="1 broiler/fryer chicken, cut into 8 pieces, 2 cups low fat buttermilk, 2 tablespoons kosher salt,2 tablespoons Hungarian paprika,2 teaspoons garlic powder,1 teaspoon cayenne pepper,Flour,Vegetable shortening"-->
+        <!--android:maxLines="1"-->
+        <!--android:ellipsize="end"-->
+        <!--android:layout_marginTop="@dimen/fab_margin"-->
+        <!--android:textSize="@dimen/text_regular"-->
+        <!--android:textColor="@color/primary_text"-->
+        <!--/>-->
+
+</LinearLayout>
